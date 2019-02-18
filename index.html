@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Time with Berny</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Trivia Jumbotron -->
+        <div class="jumbotron" style="background-color: burlywood; color: rgb(109, 27, 27);">
+            <div class="container">
+                <h1 class="text-center">
+                    <strong>Trivia Time with Berny</strong>
+                </h1>
+            </div>
+        </div>
+
+
+        <!-- Instructions -->
+        <div class="row">
+
+            <!-- Instructions Container -->
+            <div class="col-md-12">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Instructions
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            <small>Are you a full fledged Hip Hop Head? Does your heart break beat and your lungs
+                                exhale rhythm?
+                                If so? Then dust off those door-knockers and phat-laced addidas and enjoy this game.
+                                Solve trivia to find out how much <strong>YOU</strong> remember about the 90s Hip Hop
+                                scene!
+                            </small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="quizContainer"></div>
+        <div class="col-md-12">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <div class="card-body">
+                        <p>
+                            <med>Your 90s Hip Hop Question</med>
+                            
+
+                        </p>
+</div>
+                </div>
+            </div>
+        </div>
+
+
+
+<div class="resultsContainer">
+        div class="col-md-12">
+        <div class="card mb-4">
+            <div class="card-header">
+                <div class="card-body">
+                    <p>
+                        <med>Your Results</med>
+                         </p>
+                        <div id="Trivia">
+                            <button id="submit">Get Results</button>
+                            <div id="results"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Scores and Questions  -->
+        <div class="row">
+
+            <!-- Target Score -->
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Target Score
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center" id="target-score"></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Your Score -->
+            <div class="col-md-3">
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Your Score
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center" id="your-score"></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Questions -->
+            <div class="col-md-6">
+
+                <div class="btnContainer">
+                    <button type="button" , class="btn btn-default btn-lg btn-primary starBtn">Start</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Counters Row -->
+    <div class="row">
+
+        <!-- Win Count -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    Win Count
+                </div>
+                <div class="card-body">
+                    <h3 class="text-center" id="win-count">0</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loss Count -->
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-header">
+                    Loss Count
+                </div>
+                <div class="card-body">
+                    <h3 class="text-center" id="loss-count">0</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Main Game Logic  -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
